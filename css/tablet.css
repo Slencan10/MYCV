@@ -1,0 +1,43 @@
+@media screen and (max-width: 991px){
+    body{
+        font-size: 13px;
+    }
+    #thongtin-face{
+        display: none;
+    }
+      #job-info .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .container{
+        max-width: 900px;
+      }
+    .section-title{
+        font-size: 30px;
+    }
+    .bottom {
+        display: grid;
+        grid-template-columns: 40px 60px;
+      }
+      .right{
+        display: flex
+      }
+      .left{
+        position: relative;
+        top: 10px;
+        right: 10px;
+      }
+      .container{
+        margin-top: 30px
+      }
+      #target{
+        width: 90%;
+        margin-left: 10%;
+        padding-top: 40px;
+      }
+      input[type=email]{
+        width: 100%
+      }
+  
+};
+/* Css tablet digital-CV */

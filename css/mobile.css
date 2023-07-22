@@ -1,0 +1,64 @@
+@media screen and (max-width: 767px){
+    #nav-bar .container{
+        flex-direction: column;
+        border: 1px solid white;
+    }
+    .container-about{
+        display: inline-table;
+    }
+    #target{
+        padding-right: 30%;
+        position: relative;
+        right: 30px;
+    }
+    #job-info .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #job-info{
+        margin-top: 20%;
+    }
+    #personal-info{
+        padding-top: 0;
+        height: 300px;
+    }
+    .container-info {
+        border: 1px solid black;
+        margin-right: 20px;
+        display: inline-block;
+      }
+    .Giaithuong {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 20px 0;
+        position: relative;
+    }
+    .giaithuong-layout{
+        border-bottom: 1px solid orange;
+    }
+    .vertical{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .duan-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 40px;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .thongtin-navbar {
+        position: relative;
+        min-width: 170px;
+        display: inline-block;
+        border: 1px solid white;
+        width: 120px;
+        height: 50px;
+    }
+    .text-icon{
+        flex-direction: column;
+    }
+}
